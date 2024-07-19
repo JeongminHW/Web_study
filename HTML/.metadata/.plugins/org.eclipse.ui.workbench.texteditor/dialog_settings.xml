@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="//비밀번호 확인, 이름, 성별, 생년월일, 이메일, 우편번호, 주소, 취미, 직업 입력 확인"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="//비밀번호 확인, 이름, 성별, 생년월일, 이메일, 우편번호, 주소, 취미, 직업 입력 확인"/>
+			<item value="function chk() {"/>
+			<item value="}"/>
+			<item value="document.querySelector(&quot;#open&quot;).onclick = function () {"/>
+			<item value="function changeColor(){"/>
+			<item value="&lt;input type=&quot;button&quot;"/>
+			<item value="p"/>
+			<item value="&lt;h1 style=&quot;color: red; font-size: 90px;&quot;&gt;이것은 제목입니다.&lt;/h1&gt;"/>
+		</list>
+		<list key="replacehistory">
+			<item value="p class=&quot;&quot;"/>
+			<item value="input"/>
+			<item value="th"/>
+			<item value="td align=&quot;center&quot;"/>
+			<item value="td"/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="690"/>
+		<item key="DIALOG_Y_ORIGIN" value="291"/>
+		<item key="DIALOG_WIDTH" value="322"/>
+		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.jst.jsp.ui.internal.preferences.ui.JSPTemplatePreferencePage$JSPEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="195"/>
+		<item key="DIALOG_Y_ORIGIN" value="29"/>
+		<item key="DIALOG_WIDTH" value="612"/>
+		<item key="DIALOG_HEIGHT" value="436"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+	<section name="org.eclipse.wst.html.ui.internal.preferences.ui.HTMLTemplatePreferencePage$HTMLEditTemplateDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="195"/>
+		<item key="DIALOG_Y_ORIGIN" value="99"/>
+		<item key="DIALOG_WIDTH" value="612"/>
+		<item key="DIALOG_HEIGHT" value="331"/>
+		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
+	</section>
+</section>

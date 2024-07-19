@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		// 변수 : 괄호가 없음
+		// 함수(메소드) : 괄호가 있음, 기능을 수행
+		// document : web에 보이는 화면 전체
+		document.write("Hello World");
+	</script>
+</body>
+</html>

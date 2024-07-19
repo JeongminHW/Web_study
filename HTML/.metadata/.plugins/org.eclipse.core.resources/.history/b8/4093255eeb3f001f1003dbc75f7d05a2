@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function example() {
+			if(true){
+				// let, const : 지역변수
+				// var : 전역변수
+				var v1 = "var";
+				let l1 = "let";
+				const c1 = "const"
+				document.write(v1+"<br>");
+				document.write(l1+"<br>");
+				document.write(c1+"<br>");
+			}
+			document.write(v1+"<br>");
+			document.write(l1+"<br>");
+			document.write(c1+"<br>");
+		}
+		
+		example();
+	</script>
+</body>
+</html>

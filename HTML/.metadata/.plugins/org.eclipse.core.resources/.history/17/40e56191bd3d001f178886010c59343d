@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<input type="checkbox" name="lang" value="html">HTML
+		<input type="checkbox" name="lang" value="css">CSS
+		<input type="checkbox" name="lang" value="javascript">JavaScript
+		<input type="submit">
+	</form>
+</body>
+</html>

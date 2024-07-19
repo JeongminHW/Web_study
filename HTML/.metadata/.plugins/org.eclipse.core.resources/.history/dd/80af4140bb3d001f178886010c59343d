@@ -1,0 +1,16 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+
+<% //jsp (java) 영역 -> 대소문자 구분 가능
+	//http://localhost/myHTML/ch04/form_data.jsp?id=aaa&pw=1234
+	String id = 
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+table, td{
+border: 1px solid #000;
+border-collapse: separate;
+border-spacing: 0;
+background: #E2F4FB;
+}
+
+th{
+	width:200px;
+	border: 1px solid #000;
+	border-collapse: separate;
+	border-spacing: 0;
+	background-color: #2C73D2;
+	color:white;
+}
+
+.btn{
+	background: #845EC2;
+	width: auto;
+	height: 30px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}

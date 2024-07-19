@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var nums = [1,2,3];
+		var chars = ["a", "b", "c", "d"];
+		
+		//두 개의 배열 합치기
+		var numChar = nums.concat(chars);
+		
+		document.write(numChar);
+	</script>
+</body>
+</html>

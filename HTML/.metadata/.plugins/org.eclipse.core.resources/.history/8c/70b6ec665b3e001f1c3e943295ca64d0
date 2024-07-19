@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	h2.blue{color:blue;}
+</style>
+</head>
+<body>
+	<!-- 특정 태그 안에? -->
+	<p class="blue">box 클래스
+</body>
+</html>

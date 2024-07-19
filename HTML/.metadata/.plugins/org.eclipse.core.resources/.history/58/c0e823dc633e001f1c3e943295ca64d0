@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	html {
+		font-size: 32px;
+	}
+</style>
+</head>
+<body>
+	<p> 기본 스타일이 적용되었습니다.
+</body>
+</html>

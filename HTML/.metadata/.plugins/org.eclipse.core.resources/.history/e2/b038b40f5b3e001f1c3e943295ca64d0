@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	 .blue{color:blue;}
+	 .box2{width:100px; height:100px; border: 1px solid blue;}
+</style>
+</head>
+<body>
+	<!-- 클래스는 태그에 종속적이지 않음 -->
+	<div class="box1">box 클래스</div>
+	<div class="box2">box 클래스</div>
+</body>
+</html>

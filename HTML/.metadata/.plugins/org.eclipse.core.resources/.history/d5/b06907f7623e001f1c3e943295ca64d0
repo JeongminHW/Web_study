@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.font-xx-small{font-size: xx-small;}
+	.font-x-small{font-size: xx-small;}
+	.font-small{font-size: xx-small;}
+	.font-medium{font-size: xx-small;}
+	.font-large{font-size: xx-small;}
+	.font-x-large{font-size: xx-small;}
+	.font-xx-larger{font-size: xx-small;}
+</style>
+</head>
+<body>
+
+</body>
+</html>

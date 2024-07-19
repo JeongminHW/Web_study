@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+		body { text-align:center; }
+		#heading { color:blue; }
+		#text { 
+			color:gray;
+			font-size:15px;
+		}
+	</style>
+</head>
+<body>
+	<h1 id="heading">자바스크립트</h1>
+	<p id="text">위 텍스트를 클릭해보세요</p>
+	<script>
+		// 변수 타입
+		// 파이썬과 비슷하게 변수 선언을 하지 않아도 됨, 값을 받아올 때 타입이 정해짐
+		var heading = document.querySelect("#heading"); // id가 heading인 요소를 선택하여 heading변수에 리턴
+		
+		// document : 내부적으로 제공되는 객체 중 하나 
+		heading.onclick /* 이벤트 */ = function() { //익명 함수 : 함수 선언과 동시에 실행
+			heading.style.color = "red";
+		}
+	</script>
+</body>
+</html>

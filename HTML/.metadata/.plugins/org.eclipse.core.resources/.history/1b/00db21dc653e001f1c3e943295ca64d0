@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 앞의 값 세자리 : 색상 / 네번째 자리 : 투명도 -->
+	<h1 style="color: rgb(255,0,0);">rgb(255,0,0)</h1>
+	<h1 style="color: rgb(255,0,0,0.5)">rgb(255,0,0,0.5)</h1>
+	<h1 style="color: "></h1>
+	<h1 style="color: "></h1>
+	<h1 style="color: "></h1>
+	<h1 style="color: "></h1>
+</body>
+</html>

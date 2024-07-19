@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/* 글자 간격 */
+	.normal{letter-spacing: normal;}
+	.em-wide{letter-spacing: 0.4em;}
+	.em-wider{letter-spacing: 1em;}
+	.em-tight{letter-spacing: -0.05em;}
+	.px-wide{letter-spacing: 6px;}
+</style>
+</head>
+<body>
+	<p class="normal">normal 스타일이 적용되었습니다.</p>
+	<p class="em-wide">em-wide 스타일이 적용되었습니다.</p>
+	<p class="em-wider">em-wider 스타일이 적용되었습니다.</p>
+	<p class="em-tight">em-tight 스타일이 적용되었습니다.</p>
+	<p class="px-wide">px-wide 스타일이 적용되었습니다.</p>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		a=prompt("숫자를 입력하세요", "");
+		
+		// 3의 배수?
+		if(a%3==0)
+			document.write(a+"는 3의 배수입니다.");
+		else
+			document.write(a+"는 3의 배수가 아닙니다.");
+		
+		// 10보다 작은지, 20보다 작은지, 30보다 큰지
+		if(a>10)
+			document.write(a+"는 10보다 큽니다.");
+		else if(a<10)
+			document.write(a+"는 10보다 작습니다.");
+		else if(a<20)
+			document.write(a+"는 20보다 작습니다.");
+		else if(a>20)
+			document.write(a+"는 20보다 큽니다.");
+		else if(a<10)
+			document.write(a+"는 10보다 작습니다.");
+		
+	</script>
+</body>
+</html>

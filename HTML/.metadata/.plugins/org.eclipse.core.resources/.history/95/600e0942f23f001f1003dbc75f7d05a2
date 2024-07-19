@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+</style>
+</head>
+<body>
+	<script>
+		// prompt로 두 개의 정수를 입력받아서 합을 화면에 출력하는 화살표 함수
+		num1 = parseInt(prompt("첫 번째 정수 입력"));
+		num2 = parseInt(prompt("두 번째 정수 입력"));
+		const sum = (num1, num2) => {
+			plus = num1 + num2; 
+			document.write(num1+num2);
+			};
+	</script>
+</body>
+</html>

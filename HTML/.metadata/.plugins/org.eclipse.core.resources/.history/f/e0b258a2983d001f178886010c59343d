@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<p>disc : 검정색 작은 원형 모양 (기본설정)
+	<p>circle : 흰색 작은 원형 모양
+	<p>square : 사각형 모양
+</body>
+
+</html>

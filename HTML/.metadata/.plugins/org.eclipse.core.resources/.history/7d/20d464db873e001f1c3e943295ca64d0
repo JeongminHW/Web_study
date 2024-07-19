@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.background{
+		height: 3000px;
+	}
+	.background .box{
+		height: 500px;
+		background-image: url("img/img.jpg");
+	}
+</style>
+</head>
+<body>
+	
+</body>
+</html>

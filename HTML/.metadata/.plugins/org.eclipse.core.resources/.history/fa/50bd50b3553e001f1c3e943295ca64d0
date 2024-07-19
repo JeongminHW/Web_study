@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>외부 스타일</title>
+<style type="external.css">
+</style>
+</head>
+<body>
+	<h1>이것은 제목입니다.</h1>
+	<p>이것은 문단입니다.</p>
+	<div>이것은 텍스트 컨텐츠입니다.</div>
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="mycss1.css">
+</head>
+<body>
+	<h2>background-size: auto (default)</h2>
+	<div class="size1"></div>
+	<h2>background-size: cover</h2>
+	<div class="size2"></div>
+	<h2>background-size: contain</h2>
+	<div class="size3"></div>
+	<div class="size4"></div>
+</body>
+</html>

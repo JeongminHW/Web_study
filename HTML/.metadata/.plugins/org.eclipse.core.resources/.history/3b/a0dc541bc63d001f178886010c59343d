@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form>
+	id : <input name="id" value="aaa">
+	name : <input name="name" value="홍길동">
+	<!-- 화면에 보이지는 않지만 개발자 도구 등에서 보여지고 넘겨지는 값을 넘길 때 hidden 사용 -->
+	<input type="hidden" name="page" value="10"> 
+	<input type="submit">
+	</form>
+</body>
+</html>

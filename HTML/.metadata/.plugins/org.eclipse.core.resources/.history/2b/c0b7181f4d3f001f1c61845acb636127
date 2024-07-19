@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function btnClick() {
+		alert(1);
+		// 디버깅
+		console.log("hello");
+	}
+</script>
+</head>
+<body style="background-color: black">
+	<!-- onclink 이벤트 -->
+	<input type="button" value="Hi" onclick="btnClick()">
+	<div class="screen"></div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+table, td, th {
+  font-family: "Gaegu", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+table{
+border: 1px solid #000;
+border-collapse: separate;
+border-spacing: 0;
+width: 650px;
+}
+
+td{
+	height: 40px;
+	border-left: 1px solid #000;
+	border-top: 1px solid #000;
+}
+
+td:nth-child(1){
+	border-left:none;
+	background: #E2F4FB;
+}
+
+th{
+	height: 30px;
+	border-collapse: separate;
+	border-spacing: 0;
+	background-color: #2C73D2;
+	color:white;
+}
+
+.btn{
+	background: #845EC2;
+	width: auto;
+	height: 25px;
+	border: none;
+	border-radius: 5px;
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+}

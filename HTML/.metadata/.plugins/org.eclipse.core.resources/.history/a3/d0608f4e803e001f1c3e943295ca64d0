@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+/* wrap : 줄바꿈 */
+	.text1{white-space: normal;}	
+	.text2{white-space: nowrap;}	
+	.text3{white-space: pre;}	
+	.text4{white-space: pre-line;}	
+	.text5{white-space: pre-wrap;}	
+</style>
+</head>
+<body>
+	<!-- pre : 작성한 글을 그대로 출력 -->
+	<pre>
+	동해물과 백두산이 마르고 닳도록
+				하느님이 보우하사 우리나라 만세.
+	</pre>
+	<p class="text1"></p>
+	<p class="text2"></p>
+	<p class="text3"></p>
+	<p class="text4"></p>
+	<p class="text5"></p>
+</body>
+</html>

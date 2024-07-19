@@ -1,0 +1,6 @@
+var btn = document.getElementsByClassName("btn");
+var input = document.getElementsByClassName("input");
+
+btn.onclick() = function() {
+	input.innerText = btn.value;
+}

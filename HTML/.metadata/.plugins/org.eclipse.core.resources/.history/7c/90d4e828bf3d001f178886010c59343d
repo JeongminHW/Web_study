@@ -1,0 +1,15 @@
+<%@ page contentType="text/html; charset=UTF-8"%>
+
+<%
+	String subject[] = {"HTML", "CSS", "JavaScript", "JAVA", "Python", "C"};
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

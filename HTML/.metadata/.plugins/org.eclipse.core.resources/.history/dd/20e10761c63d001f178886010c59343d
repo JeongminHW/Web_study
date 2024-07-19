@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- textarea : 태그 사이에 내용이 들어감, value내용이 보이지 않음 -->
+<textarea name="ta" rows="50" cols="5" value="aaa">
+bbbbbbbbb
+</textarea>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body bgcolor="acua">
+	<table border="1">
+	<!-- 
+	thead : 위치가 밑에 있더라도 항상 위에 표시
+	tbody : 
+	 -->
+		<tfoot>
+		<tr>
+				<td>하단1</td>
+				<td>하단2</td>
+			</tr>
+		</tfoot>
+		<thead>
+			<tr>
+				<td>상단1</td>
+				<td>상단2</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>중간1</td>
+				<td>중간2</td>
+			</tr>
+		</tbody>
+	</table>
+</body>
+</html>

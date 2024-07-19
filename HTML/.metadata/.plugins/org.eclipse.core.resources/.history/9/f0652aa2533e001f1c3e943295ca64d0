@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>인라인 스타일</title>
+</head>
+<body>
+	<h1>this is title</h1>
+	<p>이것은 문단</p>
+	<div>this is text contents</div>
+</body>
+</html>

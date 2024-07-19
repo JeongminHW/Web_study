@@ -1,0 +1,3 @@
+eclipse.preferences.version=1
+newFileTemplateName=New HTML File (5)
+org.eclipse.wst.sse.ui.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates><template autoinsert\="true" context\="html_tag" deleted\="false" description\="script block" enabled\="true" id\="org.eclipse.wst.html.ui.templates.script" name\="script">&lt;script&gt;\r\n${cursor}\r\n&lt;/script&gt;</template></templates>

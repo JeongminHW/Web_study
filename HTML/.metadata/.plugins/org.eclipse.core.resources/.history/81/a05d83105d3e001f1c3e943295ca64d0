@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.box{color:red; !important}
+	.box{color:blue;}	
+</style>
+</head>
+<body>
+	<div class="box">box 스타일</div>
+	<div class="box">box 스타일</div>
+</body>
+</html>

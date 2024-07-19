@@ -1,0 +1,11 @@
+// 변수 타입
+// 파이썬과 비슷하게 변수 선언을 하지 않아도 됨, 값을 받아올 때 타입이 정해짐
+var heading = document.querySelector("#heading"); // id가 heading인 요소를 선택하여 heading변수에 리턴
+
+// document : 내부적으로 제공되는 객체 중 하나 
+document.onclick /* 이벤트 */ = function() { // 익명 함수 : 함수 선언과 동시에 실행
+	if(heading.style.color=="blue")
+		heading.style.color = "red";
+	else
+		heading.style.color = "blue";
+}

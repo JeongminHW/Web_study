@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 위 3개의 메타 태그는 head 태그의 처음에 와야합니다 -->
+    <title>부트스트랩</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+  </head>
+<body>
+	<div class="container">
+		<h2 class="m-4">버튼 스타일</h2>
+		<div>
+			<button type="button" class="btn">Basic</button>
+			<button type="button" class="btn btn-primary">Primary</button>
+			<div class="btn-group my-5">
+				<button class="btn btn-primary">Left</button>
+				<button class="btn btn-secondary">Middle</button>
+				<button class="btn btn-primary">Right</button>
+			</div><p>
+			       <button class="btn btn-primary">툴팁 위쪽</button>
+      <button class="btn btn-success">툴팁 오른쪽</button>
+      <button class="btn btn-warning">툴팁 아래쪽</button>
+      <button class="btn btn-danger">툴팁 왼쪽</button>
+		</div>
+	</div>
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="./js/jquery-3.4.1.min.js"></script>
+		<script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

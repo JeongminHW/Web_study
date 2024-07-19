@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script>
+		var reply = confirm("정말 배경 이미지를 바꾸겠습니까?");
+	</script>
+	네네선생님
+</body>
+</html>

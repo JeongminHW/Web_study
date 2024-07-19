@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	function click() {
+		Console.log("안녕하세요.");
+	}
+</script>
+</head>
+<body>
+	<!-- onclink 이벤트 -->
+	<input type="button" value="HI" onclick="click()">
+</body>
+</html>

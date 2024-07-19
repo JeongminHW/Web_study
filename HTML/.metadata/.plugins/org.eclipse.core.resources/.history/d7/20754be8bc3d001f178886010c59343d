@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+	id : <input type="text" name="id"><br>
+	<button type="button">button</button>
+	<button type="button" onclick="function()" value="btn2">button</button>
+	<button type="reset">reset</button>
+	<button type="submin">submit</button>
+	</form>
+</body>
+</html>

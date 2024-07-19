@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="result">
+			
+		</div>
+		<table class="cal">
+			<tr>
+				<td class="arg"><input class="btn" type="button" id="mod" value="%"></td>
+				<td class="arg"><input class="btn" type="button" id="ac" value="AC"></td>
+				<td class="arg"><input class="btn" type="button" id="ce" value="CE"></td>
+				<td class="arg"><input class="btn" type="button" id="back" value="⌫"></td>
+			</tr>
+			<tr>
+				<td class="arg"><input class="btn" class="btn" type="button" id="7" value="7"></td>
+				<td class="arg"><input class="btn" type="button" id="8" value="8"></td>
+				<td class="arg"><input class="btn" type="button" id="9" value="9"></td>
+				<td class="arg"><input class="btn" type="button" id="div" value="÷"></td>
+			</tr>
+			<tr>
+				<td class="arg"><input class="btn" type="button" id="4" value="7"></td>
+				<td class="arg"><input class="btn" type="button" id="5" value="8"></td>
+				<td class="arg"><input class="btn" type="button" id="6" value="9"></td>
+				<td class="arg"><input class="btn" type="button" id="multiply" value="×"></td>
+			</tr>
+			<tr>
+				<td class="arg"><input class="btn" type="button" id="1" value="1"></td>
+				<td class="arg"><input class="btn" type="button" id="2" value="2"></td>
+				<td class="arg"><input class="btn" type="button" id="3" value="3"></td>
+				<td class="arg"><input class="btn" type="button" id="sub" value="-"></td>
+			</tr>
+			<tr>
+				<td class="arg"><input class="btn" type="button" id="0" value="0"></td>
+				<td class="arg" colspan="2"><input class="btn" type="button" id="decimal_point" value="AC">.</td>
+				<td class="arg" id="plus"><input class="btn" type="button" id="ac" value="AC">+</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

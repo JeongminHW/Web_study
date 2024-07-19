@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/event.css">
+</head>
+<body>
+	<ul>
+		<li><a href="#">Green</a></li>
+		<li><a href="#">Orange</a></li>
+		<li><a href="#">Purple</a></li>
+	</ul>
+	<div id="result">
+	
+	</div>
+</body>
+</html>

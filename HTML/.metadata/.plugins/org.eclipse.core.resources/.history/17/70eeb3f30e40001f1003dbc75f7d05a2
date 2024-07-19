@@ -1,0 +1,8 @@
+var btn = document.getElementsByClassName("btn");
+ivar nput = document.getElementsByClassName("input");
+
+btn.onclick() = function() {
+	
+}
+
+btnClick();

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 제어문 : 선택문(조건문), 반복문
+		// 선택문 : if-else, switch, 삼항연산자
+		// 반복문 : for, while(do)
+		a=10;
+		if(a%2==0){
+			alert("짝수 입니다.");
+		}
+		else
+			alert("홀수 입니다.")
+			
+		b=-10;
+		if(b>0)
+			alert(b+"는 양수 입니다.");
+		else if(b<0)
+			alert(b+"는 음수 입니다.");
+		else
+			alert(b+"는 0입니다.");
+	</script>
+</body>
+</html>

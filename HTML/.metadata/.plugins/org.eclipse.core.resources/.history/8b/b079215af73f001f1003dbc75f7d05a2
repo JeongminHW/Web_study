@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/function.css">
+<script type="text/javascript">
+	function changeBg(){
+		var result = document.querySelector("#result");
+		result.style.backgroundColor("green");
+	}
+</script>
+</head>
+<body>
+	<ul>
+		<li><a href="#" onclick="alert('초록')">Green</a></li>
+		<li><a href="#" onclick="alert('오렌지')">Orange</a></li>
+		<li><a href="#" onclick="alert('보라')">Purple</a></li>
+	</ul>
+	<div id="result"></div>
+</body>
+</html>

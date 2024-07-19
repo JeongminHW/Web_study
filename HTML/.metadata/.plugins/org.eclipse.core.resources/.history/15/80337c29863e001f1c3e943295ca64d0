@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 style="background-color: rgb(255,0,0)">background-color: rgb(255,0,0)</h1>
+	<h1 style="background-color: rgb(255,0,0,0.5)">background-color: rgb(255,0,0,0.5)</h1>
+	<h1 style="background-color: hsl(0, 100%, 50%)">background-color: hsl(0, 100%, 50%)</h1>
+	<h1 style="background-color: hsl(0, 100%, 50%, 0.5)">background-color: hsl(0, 100%, 50%, 0.5)</h1>
+	<h1 style="background-color: #adf392">background-color: #adf392</h1>
+	<h1 style="background-color: #ed51ac">background-color: #ed51ac</h1>
+	<h1 style="background-color: maroon;)">background-color: maroon</h1>
+</body>
+</html>

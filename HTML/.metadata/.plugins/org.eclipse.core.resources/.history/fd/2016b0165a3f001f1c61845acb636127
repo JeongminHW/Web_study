@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+	sum = 0;
+	for (var i = 0; i < 10; i++) {
+		sum += i;
+	}
+	document.write("1에서 10까지의 합은 " + sum + "<br>");
+	
+	for (var i = 0; i < 41; i+=2) {
+		sum+=i;
+		if(i%2==0)
+			sum+=i;
+	}
+
+	document.write("1에서 40까지 짝수의 합은 " + sum);
+</script>
+</body>
+</html>

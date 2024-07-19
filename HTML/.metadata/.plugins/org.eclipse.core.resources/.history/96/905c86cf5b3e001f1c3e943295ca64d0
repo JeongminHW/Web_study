@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.blue{color: blue;}
+	/* bold는 id 정의*/
+	#bold{font-weight: 900;}
+</style>
+</head>
+<body>
+	
+</body>
+</html>

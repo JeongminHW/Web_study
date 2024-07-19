@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body{
+	background-color: rgb(7, 133, 248);
+}
+
+.size1{
+	width:500px;
+	height: 500px;
+	background: url("img/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+
+.size2{
+	width:500px;
+	height: 500px;
+	background: url("img/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.size3{
+	width:500px;
+	height: 500px;
+	background: url("img/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.size4{
+	width:500px;
+	height: 500px;
+	background: url("img/sky.jpg");
+	background-repeat: no-repeat;
+	background-size: 500px 150px;
+}

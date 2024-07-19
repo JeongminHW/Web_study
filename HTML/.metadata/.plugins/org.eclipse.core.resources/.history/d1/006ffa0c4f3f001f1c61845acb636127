@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script type="text/javascript">
+	// 숫자형, 문자열, 논리형, 배열, 객체, null
+	a=100;
+	b="하하";
+	c=true;
+	d=['봄', '여름', '가을', '겨울'];
+	e=null;
+</script>
+</head>
+<body>
+
+</body>
+</html>

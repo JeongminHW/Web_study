@@ -1,0 +1,10 @@
+'use strict';
+
+// 변수
+var btn = document.querySelectorAll('.btn');
+var input = document.querySelector('.input');
+
+
+(function () {
+	
+})

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<!-- ctrl + alt + 방향키 : 코드(행) 복사  -> 엔비디아에서 화면을 뒤집는 단축키로 사용하기 때문에 변경해줘야할 수도 있음 -->
+	<h1>h1 태그</h1>
+	<h2>h2 태그</h2>
+	<h3>h3 태그</h3>
+	<h4>h4 태그</h4>
+	<h5>h5 태그</h5>
+	<h6>h6 태그</h6>
+</body>
+</html>

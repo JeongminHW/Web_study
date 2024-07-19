@@ -1,0 +1,7 @@
+btn = document.getElementsByClassName("btn");
+
+function btnClick(){
+	console.log(btn.onclick.value);
+}
+
+btnClick();

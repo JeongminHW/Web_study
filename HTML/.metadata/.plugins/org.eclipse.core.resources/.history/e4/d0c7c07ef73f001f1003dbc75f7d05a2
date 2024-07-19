@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="css/function.css">
+<script type="text/javascript">
+	function changeBg(){
+		var result = document.querySelector("#result");
+		result.style.backgroundColor("yellow");
+	}
+	
+	
+</script>
+</head>
+<body>
+	<ul>
+		<li><a href="#" onclick="changeBg()">Green</a></li>
+		<li><a href="#" onclick="changeBg()">Orange</a></li>
+		<li><a href="#" onclick="changeBg()">Purple</a></li>
+	</ul>
+	<div id="result"></div>
+</body>
+</html>

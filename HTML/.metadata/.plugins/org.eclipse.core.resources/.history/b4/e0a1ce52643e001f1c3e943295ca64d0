@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	html {font-size: 32px;}
+	.font-px{font-size: 16px;}
+	.font-vw{font-size: 5vw;}
+	.font-vh{font-size: 5vh;}
+	.font-em{font-size: 1.5em;}
+	.font-rem{font-size: 1.5rem;}
+	.font-percentage{font-size: 150%;}
+</style>
+</head>
+<body>
+	<p> 기본 스타일이 적용되었습니다.
+	<p class="font-px"> font-px이 적용되었습니다.
+	<p class="font-vw"> font-vw이 적용되었습니다.
+	<p class="font-vh"> font-vh이 적용되었습니다.
+	<p class="font-em"> font-em이 적용되었습니다.
+	<p class="font-rem"> font-rem이 적용되었습니다.
+	<p class="font-percentage"> font-percentage이 적용되었습니다.
+</body>
+</html>

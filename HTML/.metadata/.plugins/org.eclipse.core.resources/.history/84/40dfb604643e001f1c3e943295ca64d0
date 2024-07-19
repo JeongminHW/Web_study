@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	html {font-size: 32px;}
+	.font-px{font-size: 16px;}
+	.font-vw{font-size: 5vw;}
+	.font-vh{font-size: 5vh;}
+	.font-em{font-size: 1.5em;}
+	.font-rem{font-size: 1.5rem;}
+	.font-percentage{font-}
+</style>
+</head>
+<body>
+	<p> 기본 스타일이 적용되었습니다.
+</body>
+</html>

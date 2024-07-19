@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>번호</th>
+			<th>배달상태</th>
+			<th width=200>주문메뉴</th>
+			<th>수량</th>
+			<th width=250>픽업/배달</th>
+		</tr>
+		<tr>
+			<td rowspan="3">1</td>
+			<td rowspan="3">1</td>
+			<td>햄버거</td>
+			<td>1</td>
+			<td rowspan="3">빨랑 갖다주세요</td>
+			
+			<tr>
+			<td>콜라</td>
+			<td>2</td>
+			</tr>
+			
+			<tr>
+			<td>감자튀김</td>
+			<td>2</td>
+			</tr>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">2</td>
+			<td rowspan="2">1</td>
+			<td>햄버거</td>
+			<td>1</td>
+			<td rowspan="2">10시 주문</td>
+			
+			<tr>
+			<td>콜라</td>
+			<td>2</td>
+			</tr>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">3</td>
+			<td rowspan="2">1</td>
+			<td>콜라</td>
+			<td>5</td>
+			<td rowspan="2">시간 엄수</td>
+			
+			<tr>
+			<td>아이스크림</td>
+			<td>5</td>
+			</tr>
+		</tr>
+		
+		<tr>
+			<td >4</td>
+			<td>1</td>
+			<td>햄버거</td>
+			<td>2</td>
+			<td>ㅁㅁㅁ</td>
+		</tr>
+		
+		<tr>
+			<td rowspan="2">5</td>
+			<td rowspan="2">1</td>
+			<td>햄버거</td>
+			<td>1</td>
+			<td rowspan="2">허리업</td>
+			
+			<tr>
+			<td>콜라</td>
+			<td>2</td>
+			</tr>
+		</tr>
+		
+	</table>
+</body>
+</html>

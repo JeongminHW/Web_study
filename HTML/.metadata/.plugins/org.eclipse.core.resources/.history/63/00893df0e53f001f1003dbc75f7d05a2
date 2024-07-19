@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="result">
+			
+		</div>
+		<table class="cal">
+			<tr>
+				<td class="arg"><input type="button" id="mod" value="%"></td>
+				<td class="arg"><input type="button" id="ac" value="AC"></td>
+				<td class="arg"><input type="button" id="ce" value="CE"></td>
+				<td class="arg"><input type="button" id="back" value="⌫"></td>
+			</tr>
+			<tr>
+				<td class="arg"><input type="button" id="7" value="7"></td>
+				<td class="arg"><input type="button" id="8" value="8"></td>
+				<td class="arg"><input type="button" id="9" value="9"></td>
+				<td class="arg"><input type="button" id="div" value="÷"></td>
+			</tr>
+			<tr>
+				<td class="arg" id="1"><input type="button" id="ac" value="AC">1</td>
+				<td class="arg" id="2"><input type="button" id="ac" value="AC">2</td>
+				<td class="arg" id="3"><input type="button" id="ac" value="AC">3</td>
+				<td class="arg" id="sub"><input type="button" id="ac" value="AC">-</td>
+			</tr>
+			<tr>
+				<td class="arg" id="0"><input type="button" id="ac" value="AC">0</td>
+				<td class="arg" colspan="2" id="decimal_point"><input type="button" id="ac" value="AC">.</td>
+				<td class="arg" id="plus"><input type="button" id="ac" value="AC">+</td>
+			</tr>
+		</table>
+	</div>
+	<script type="text/javascript" src="js.js"></script>
+</body>
+</html>

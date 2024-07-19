@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		// 함수 선언
+		function addNumber() {
+			var sum = 10 + 20;
+		}
+		
+		addNumber(); // 함수 호출
+
+		document.write(sum);
+	</script>
+</body>
+</html>

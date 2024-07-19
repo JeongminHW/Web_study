@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.normal {
+		font-style: normal;
+	}
+	.italic{
+		font-style: italic;
+	}
+	.oblique {
+		font-style: oblique;
+	}
+</style>
+</head>
+<body>
+
+</body>
+</html>

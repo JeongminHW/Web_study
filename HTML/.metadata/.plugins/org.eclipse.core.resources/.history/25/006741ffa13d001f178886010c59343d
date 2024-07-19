@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<!-- 
+alt : 이미지가 뜨지 않았을 때 무슨 이미지인지 설명하는 기능 (생략 가능)
+절대경로에 있는 파일은 서버에서 열리지 않음
+ -->
+<img src="logo.png"><br>
+<img src="C:/HTML/myHTML/src/main/webapp/img/logo.png"><br>
+</body>
+</html>

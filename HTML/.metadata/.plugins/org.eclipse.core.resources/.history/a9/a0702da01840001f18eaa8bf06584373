@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		ID : <input name="id"><br>
+		PW : <input type="password" name="pw"><br>
+		
+		<input type="button" value="로그인" onclick="chk()">
+	</form>
+	
+	<script type="text/javascript">
+	function chk(){
+		f = document.frm;
+		if(f.id.value =="")
+			alert("아이디를 입력하세요");
+		f.submit();
+	}
+	</script>
+</body>
+</html>

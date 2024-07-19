@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.screen{
+   background-color: #fff;
+   margin: 25px;
+   padding: 5px;
+   width: 140px;
+   height: 80px;
+   transform: rotateX(45deg);
+   box-shadow: 0 3px 10px rgb(255 255 255 / 70%);
+}
+</style>
+<script type="text/javascript">
+	function btnClick() {
+		alert(1);
+		// 디버깅
+		console.log("hello");
+	}
+</script>
+</head>
+<body style="background-color: black">
+	<!-- onclink 이벤트 -->
+	<input type="button" value="Hi" onclick="btnClick()">
+	<div class="screen"></div>
+</body>
+</html>

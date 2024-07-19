@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<button onclick="goNaver()">Go naver</button>
+	<script type="text/javascript">
+		function goNaver(){
+			location.href = "https://naver.com";
+	}
+	</script>
+</body>
+</html>

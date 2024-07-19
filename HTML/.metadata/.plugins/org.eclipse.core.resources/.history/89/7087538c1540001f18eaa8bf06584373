@@ -1,0 +1,8 @@
+'use strict';
+
+var btn = document.querySelectorAll('.btn');
+var input = document.querySelector('.input');
+
+btn.addEventListener('click', () =>{
+	
+})

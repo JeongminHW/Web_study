@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	 .blue{color:blue;}
+</style>
+</head>
+<body>
+	<h2 class="blue">box 클래스</h2>
+	<p class="blue">box 클래서
+</body>
+</html>

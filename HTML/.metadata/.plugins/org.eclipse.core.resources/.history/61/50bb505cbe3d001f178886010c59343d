@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+		<label>당신이 선호하는 언어는?</label>
+		<select name="select">
+		<option value="HTML">HTML</option>
+		<option value="CSS">CSS</option>
+		<option value="JavaScript">JavaScript</option>
+		<option value="JAVA">JAVA</option>
+		<option value="Python">Python</option>
+		<option value="C">C</option>
+		</select>
+	</form>
+</body>
+</html>

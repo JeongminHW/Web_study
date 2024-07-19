@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+										/* x-오프셋, y-오프셋, 흐림정도, 그림자색상 */
+		.text-1 { text-shadow: .1em .1em rgba(0, 0, 0, 0.3); }
+		.text-2 { text-shadow: .1em .1em .2em rgba(0, 0, 0, 0.6); }
+		.text-3 { text-shadow: 0.075em 0.08em 0.1em rgba(0, 0, 0, 1); }
+		.text-4 { text-shadow: 0.2em 0.5em 0.1em #ddd, -0.3em 0.1em 0.1em #aaa, 0.4em -0.3em 0.1em #888; }
+		.text-5 { text-shadow: 0 0 0.5em #87F, 0 0 0.5em #87F, 0 0 0.5em #87F; }
+		.text-6 { text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px pint	}
+		.text-7 { text-shadow: 0 0 .1em rgba(0, 0, 0, 0.2), 0 0 .2em rgba(0, 0, 0, 0.2); }
+</style>
+</head>
+<body>
+<p class="text-1">text-1 적용</p>
+<p class="text-2">text-2 적용</p>
+<p class="text-3">text-3 적용</p>
+<p class="text-4">text-4 적용</p>
+<p class="text-5">text-5 적용</p>
+<p class="text-6">text-6 적용</p>
+<p class="text-7">text-7 적용</p>
+</body>
+</html>

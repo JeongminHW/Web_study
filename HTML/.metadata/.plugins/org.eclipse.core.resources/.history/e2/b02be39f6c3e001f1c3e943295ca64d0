@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+	.text-none{text-decoration: none;}
+	.text-it{text-decoration: line-through;}
+	.text-overline{text-decoration: overline;}	
+	.text-underline{text-decoration: underline;}	
+	.text-ou{text-decoration: overline underline;}	
+	.text-oult{text-decoration: overline underline line-through;}	
+</style>
+</head>
+<body>
+	<p class="text-none">text-none
+	<p class="text-it">text-it
+	<p class="text-overline">text-overline
+	<p class="text-underline">text-underline
+	<p class="text-ou">text-ou
+	<p class="text-oult">text-oult
+	<del>17,000원</del>
+</body>
+</html>

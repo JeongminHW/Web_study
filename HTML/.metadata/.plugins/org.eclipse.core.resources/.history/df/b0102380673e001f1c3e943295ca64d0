@@ -1,0 +1,32 @@
+<%@page import="java.util.Random"%>
+<%@ contentType="text/html; charset="UTF-8"%>
+
+<%!
+Random rd = new Random();
+
+public String randomColor(){
+	
+	String rgb = "#";
+	
+	int r = rd.nextInt(256); //0~255 랜덤 정수 리턴
+	int g = rd.nextInt(256); //0~255 랜덤 정수 리턴
+	int b = rd.nextInt(256); //0~255 랜덤 정수 리턴
+	
+	rgb+=Integer.toHexString(r);
+	rgb+=Integer.toHexString(g);
+	rgb+=Integer.toHexString(b);
+	
+	return rgb;
+}
+%>
+<%=randomColor() %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+</body>
+</html>

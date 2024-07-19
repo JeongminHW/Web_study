@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>member.html</title>
+<link rel="stylesheet" href="mycss.css">
+<script type="text/javascript">
+	function chk() {
+
+	}
+</script>
+</head>
+<body>
+	<form name="frm" method="post">
+		<table border="1" style="background-color: #CEECF5">
+			<tr>
+				<td colspan="3" style="background-color: #8181F7">회원가입</td>
+			</tr>
+			<tr>
+				<td>아이디</td>
+				<td><input name="id" size=15> <input type="button"
+					name="ID중복확인" value="ID중복확인" onclick="idChk()"></td>
+				<td>아이디를 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>비밀번호</td>
+				<td><input name="pwd" size=15></td>
+				<td>비밀번호를 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>비밀번호 확인</td>
+				<td><input name="pwdchk" size=15><span></span></td>
+				<td>비밀번호를 확인합니다.</td>
+			</tr>
+			<tr>
+				<td>이름</td>
+				<td><input name="name" size=15></td>
+				<td>이름을 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>성별</td>
+				<td><small>남</small><input type="radio" name="gender" value="남">
+					<small>여</small><input type="radio" name="gender" value="여"></td>
+				<td>성별을 선택 하세요.</td>
+			</tr>
+			<tr>
+				<td>생년월일</td>
+				<td><input size=7 name="birthday">ex)830815</td>
+				<td>생년월일을 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td><input size=30 name="email"></td>
+				<td>이메일을 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>우편번호</td>
+				<td><input size=5 name="zipcode"> <input type="button" name="우편번호찾기"
+					value="우편번호찾기" onclick="zipcodeChk()"></td>
+				<td>우편번호를 검색하세요.</td>
+			</tr>
+			<tr>
+				<td>주소</td>
+				<td><input size=45 name="address"></td>
+				<td>주소를 적어 주세요.</td>
+			</tr>
+			<tr>
+				<td>취미</td>
+				<td><small>인터넷</small><input type="checkbox" name="hobby">
+					<small>여행</small><input type="checkbox" name="hobby"> <small>게임</small><input
+					type="checkbox" name="hobby"> <small>영화</small><input
+					type="checkbox" name="hobby"> <small>운동</small><input
+					type="checkbox" name="hobby"></td>
+				<td>취미를 선택 하세요.</td>
+			</tr>
+			<tr>
+				<td>직업</td>
+				<td><select id="job">
+						<option value="0" selected>선택하세요.
+						<option value="회사원">회사원
+						<option value="연구전문직">연구전문직
+						<option value="교수학생">교수학생
+						<option value="일반자영업">일반자영업
+						<option value="공무원">공무원
+						<option value="의료인">의료인
+						<option value="법조인">법조인
+						<option value="종교,언론,에술인">종교.언론/예술인
+						<option value="농,축,수산,광업인">농/축/수산/광업인
+						<option value="주부">주부
+						<option value="무직">무직
+						<option value="기타">기타
+				</select></td>
+				<td>직업을 선택 하세요.</td>
+			</tr>
+			<tr>
+				<th colspan="3"><input type="button" value="회원가입"
+					onclick="chk()"> <input type="submit" value="다시쓰기">
+					<input type="submit" value="로그인"></th>
+			</tr>
+		</table>
+	</form>
+
+	<script type="text/javascript">
+	//엘리먼트
+		var f = document.frm;
+		var id = f.id.value;
+		var pwd = f.pwd.value;
+		var pwdchk = f.pwdchk.value;
+		var name = f.name.value;
+		var birthday = f.birthday.value;
+		var gender = f.gender.value;
+		var email = f.email.value;
+		var zipcode = f.zipcode.value;
+		var zipcodesch = f.우편번호찾기.value;
+		var hobby = f.hobby.value;
+		var job = f.job.value;
+		
+		//ID 중복 확인
+		function idChk() {
+			if(id==""){
+				alert("아이디를 입력하세요.");
+			}
+			else {
+				window.open("notice.html", "", "width=500, height=500");
+			}
+		}
+		
+		//비밀번호 확인, 이름, 성별, 생년월일, 이메일, 우편번호, 주소, 취미, 직업 입력 확인
+		function chk() {
+			if(pwd=="" & pwdchk=="" & name=="" & gender=="" & bithday=="" & email =="" 
+					& zipcode=="" & job=="" & hobby==""){
+				if(pwd == ""){
+					alert("비밀번호를 입력하세요.");
+				}
+				if(name==""){
+					alert("이름을 입력하세요.");
+				}
+				if(gender==""){
+					alert("성별을 입력하세요.");
+				}
+			}
+			else if(pwd ==pwdchk & pwd!="" & pwdchk!=""){
+				alert("비밀번호가 일치합니다.");
+			}
+			else if(pwd == pwdchk & pwd!="" & pwdchk!=""){
+				alert("비밀번호가 일치하지 않습니다.");
+			}
+			
+			
+			// 성별 선택 확인
+			console.log(f.gender.value);
+			
+			//생년월일 입력 확인
+			
+		}
+		
+		//우편 번호 찾기
+		function zipcodeChk(){
+			window.open("notice.html", "", "width=500, height=500");
+		}
+	</script>
+</body>
+</html>

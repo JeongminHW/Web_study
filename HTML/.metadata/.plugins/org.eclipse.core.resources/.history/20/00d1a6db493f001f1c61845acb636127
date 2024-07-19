@@ -1,0 +1,21 @@
+const introTitle = document.getElementById("intro-title");
+const introShowBtn = document.getElementById("introShowBtn");
+const TitleText = "안녕하세요! BRGNDY 입니다!";
+
+const showTitleText = () => {
+  const copyTitleText = [...TitleText];
+  let index = 0;
+  const showText = setInterval(() => {
+    introTitle.innerHTML += copyTitleText[index++];
+    if (copyTitleText[index] === " ") {
+      introTitle.innerHTML += "<br>";
+    } else if (index === copyTitleText.length) {
+      clearInterval(showText);
+      introShowBtn.classList.toggle("show");
+    }
+  }, 200);
+};
+
+window.onload = () => {
+  showTitleText();
+};

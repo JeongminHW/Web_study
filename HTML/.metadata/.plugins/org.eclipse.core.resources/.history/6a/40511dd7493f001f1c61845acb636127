@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello Game World</title>
+    <script src="https://kit.fontawesome.com/412379eca8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="title-container">
+            <div class="h1-conatiner">
+                <h1 id="intro-title" class="intro-title">
+               
+                </h1>
+
+            </div>
+
+            <div class="intro-show"><button id="introShowBtn" class="intro-show-btn">
+                    <i class="fa-solid fa-angles-down"></i>
+                </button></div>
+        </div>
+    </div>
+
+</body>
+
+</html>

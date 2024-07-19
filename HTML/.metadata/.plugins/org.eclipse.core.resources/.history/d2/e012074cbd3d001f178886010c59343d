@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="">
+	<!-- button type은 반드시 onclick 이벤트를 통해서 동작 -->
+	id : <input type="text" name="id"><br>
+	<button type="button">button1</button>
+	<button type="button" onclick="function()" value="btn2">button2</button>
+	<button type="reset">reset</button>
+	<button type="submin">submit</button>
+	</form>
+</body>
+</html>

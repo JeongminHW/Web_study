@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<script type="text/javascript">
+		function example() {
+			if (true) {
+				// let, const : 지역변수
+				// var : 전역변수
+				var v1 = "var"; //함수 스코프, 재선언 가능
+				let l1 = "let"; //블록 스코프, 재할당 가능
+				const c1 = "const" // 값을 수정할 수 없는 상수의 개념, 블록 스코프, 재할당 불가능(상수) -> 초기화 필요
+				document.write(v1 + "<br>");
+				document.write(l1 + "<br>");
+				document.write(c1 + "<br>");
+				v1 = "var2";
+				l1 = "let2";
+				c1 = "const2";
+				document.write(v1 + "<br>");
+				document.write(l1 + "<br>");
+				document.write(c1 + "<br>");
+			}
+			document.write(v1 + "<br>");
+			document.write(l1 + "<br>");
+			document.write(c1 + "<br>");
+		}
+
+		example();
+	</script>
+</body>
+</html>
